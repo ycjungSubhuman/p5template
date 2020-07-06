@@ -23,7 +23,7 @@ class P5FigureBase {
             this.draw_post = (canvas: HTMLElement) => {};
         }
 
-        this.p5 = new p5(this.generator, this.canvas);
+        this.p5 = new p5(this.generator.bind(this), this.canvas);
     }
 
     generator (p: p5) {
