@@ -1,0 +1,33 @@
+{
+  "name": "p5template",
+  "version": "1.0.0",
+  "description": "My personal p5 diagram template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ycjungSubhuman/p5template.git"
+  },
+  "keywords": [
+    "p5js"
+  ],
+  "author": "Yucheol Jung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ycjungSubhuman/p5template/issues"
+  },
+  "homepage": "https://github.com/ycjungSubhuman/p5template#readme",
+  "dependencies": {
+    "@types/p5": "^0.9.0",
+    "ccapture.js": "^1.1.0",
+    "gif.js": "^0.2.0",
+    "p5": "^1.0.0",
+    "webm-writer": "^0.2.5"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0"
+  }
+}
